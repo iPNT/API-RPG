@@ -6,7 +6,7 @@ open class Personagem(){
     var maxVida: Int = 0
 
     var mana: Int = 0
-    var maxMana: Int = 0
+    var maxMana: Int = 0 //Vai representar a força do ataque mágico do personagem
     var elemento: Int = 0
 
     var ataqueFisico: Int = 0
@@ -28,6 +28,7 @@ open class Personagem(){
     }
 
     fun gerarDano(atacante: Personagem, alvo: Personagem) { //Implementar depois de definir lvs, magia e status
+
 
     }
 
@@ -61,6 +62,12 @@ open class Personagem(){
     fun getMaxMana(jogador: Personagem): Int {
 
         return this.maxMana
+    }
+
+
+
+    fun getStatus(jogador: Personagem){ //Mostra todos os status do personagem em um vetor Array<Any>
+
     }
 
 
